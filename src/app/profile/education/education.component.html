@@ -1,0 +1,62 @@
+<div class="section" id="education">
+    <div class="container cc-education">
+      <div class="h4 text-center mb-4 title">Formations</div>
+      <div class="card">
+        <li *ngFor="let item of formations" >
+        <div class="row">
+          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body cc-education-header">
+              <p>{{item.period}}</p>
+              <div class="h5">{{item.diplome}}</div>
+            </div>
+          </div>
+          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body">
+              <div class="h5">{{item.diplome}}</div>
+               <h4 class="category">
+                 {{item.ecole}}
+               </h4>
+               <!-- <div class="h6">{{item.description}}</div> -->
+               <p>{{item.description}}</p>
+             </div>
+          </div>
+        </div>
+      </li>
+      </div>
+ <!--      <div class="card">
+        <div class="row">
+          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body cc-education-header">
+              <p>2013 - 2015</p>
+              <div class="h5">Higher Secondary</div>
+            </div>
+          </div>
+          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body">
+              <div class="h5">Higher Secondary</div>
+               <h4 class="category">Gyandeeep Vidhyalaya
+               </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row">
+          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body cc-education-header">
+              <p>2012 - 2013</p>
+              <div class="h5">Sedcondary School</div>
+            </div>
+          </div>
+          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+            <div class="card-body">
+              <div class="h5">Secondary School</div>
+               <h4 class="category">Gyandeeep Vidhyalaya
+               </h4>
+            </div>
+          </div>
+       </div>
+      </div>
+ -->
+    </div>
+  </div>
