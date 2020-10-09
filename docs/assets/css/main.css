@@ -3103,6 +3103,14 @@ img {
   min-height: 190px;
 }
 
+ #experience li {
+  list-style-type: none;
+}
+
+#education li {
+  list-style-type: none;
+} 
+
 .footer {
   padding: 24px 0;
 }
@@ -4868,7 +4876,7 @@ img {
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);
+  border: 5px solid rgba(55, 140, 63, 0.6);
   border-radius: 50%;
   height: 180px;
   width: 180px;
@@ -4879,7 +4887,7 @@ img {
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite; */
   opacity: 0.0;
-  z-index: 99;
+  z-index: -1;
 }
 
 .cc-profile-image img {
@@ -4890,8 +4898,8 @@ img {
   padding: 0;
   margin: 0;
   /* border: 15px solid transparent; */
-  border: 8px solid #0022ff;
-  z-index: 9999;
+  border: 6px solid rgba(55, 140, 63, 0.6);
+  z-index: -1;
   /* -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out; */
 }

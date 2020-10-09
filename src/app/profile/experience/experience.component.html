@@ -1,56 +1,23 @@
-<!-- <div class="section" id="experience">
-  <div class="container cc-education">
-      <div class="h4 text-center mb-4 title">Work Experience</div>
-<div class="colorlib-narrow-content">
- 
-  <div class="row">
-      <div class="col-md-12">
-       <div class="timeline-centered">
-           <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-              <li *ngFor="let item of experiences" > 
-              
-                <div class="timeline-entry-inner">
-
-                 <div class="timeline-icon color-1">
-                    <i class="icon-pen2"></i>
-                 </div>
-
-                 <div class="timeline-label">
-                                <h2>{{item.job }}<span> {{item.period}}</span></h2>
-                                <h4>{{item.societe}}</h4>
-                                <p>{{item.description}}</p>
-                       </div>
-                    </div>
-
-                 </article>
-                </div>
-              </div>
-           </div>
-       </div>
-    </div>
-   </div>
- -->
-
  <div class="section" id="experience">
   <div class="container cc-experience">
     <div class="h4 text-center mb-4 title">Expériences</div>
-    <div class="card">
-      <li *ngFor="let item of experiences"> 
-      <div class="row">
-          <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-            <div class="card-body cc-experience-header">
-              <p>{{item.period}}</p>
-              <div class="h5">{{item.societe}}</div>
-            </div>
+    <li *ngFor="let item of experiences">
+      <div class="card">
+          <div class="row">
+              <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body cc-experience-header">
+                  <p>{{item.period}}</p>
+                  <div class="h5">{{item.societe}}</div>
+                </div>
+              </div>
+              <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                <div class="card-body">
+                  <div class="h5">{{item.job}}</div>
+                  <p>{{item.description}}</p>
+                </div>
+              </div>
           </div>
-          <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-            <div class="card-body">
-              <div class="h5">{{item.job}}</div>
-              <p>{{item.description}}</p>
-            </div>
-          </div>
-      </div>
+        </div>
     </li>
-    </div>
   </div>
 </div>
