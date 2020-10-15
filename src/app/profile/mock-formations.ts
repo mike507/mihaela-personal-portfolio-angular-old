@@ -22,7 +22,7 @@ export const FORMATIONS: Formation[] = [
   `Compétences acquises : Python, Développement Web avec Flask, Web Scraping
   Environnement : PyCharm, Jupyter Notebooks, Microsoft Windows`
   },
-  { diplome: "Python and Django Full Stack Web Developer Bootcamp",
+  { diplome: "Python and Django Full Stack Web Developer Bootcamp ",
   period: "Avril 2020 à décembre 2020 ",
   ecole: "Udemy",
   description:
