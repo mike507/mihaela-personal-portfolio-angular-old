@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { IntroComponent } from './intro/intro.component';
 import { AboutComponent } from './about/about.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { EducationComponent } from './education/education.component';
@@ -26,6 +27,7 @@ import { NgxSpinnerModule } from '../../../node_modules/ngx-spinner';
     FooterComponent,
     IntroComponent,
     AboutComponent,
+    PortfolioComponent,
     SkillsComponent,
     ExperienceComponent,
     EducationComponent,
