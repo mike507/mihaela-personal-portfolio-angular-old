@@ -9,7 +9,7 @@ export const FORMATIONS: Formation[] = [
     Polytechnique de Bucarest, la Faculté d'Automatique et Ordinateurs`
   },
   { diplome: "The Complete Web Development Bootcamp",
-  period: "Avril 2020 à décembre 2020 ",
+  period: "Avril 2020 à novembre 2020 ",
   ecole: "Udemy",
   description:
   `Compétences acquises : Développement Web, Javascript, React, HTML, CSS, Bootstrap, NodeJs, MongoDB

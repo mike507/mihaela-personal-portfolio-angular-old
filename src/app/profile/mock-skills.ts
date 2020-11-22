@@ -17,11 +17,12 @@ export const HEROES: Hero[] = [
 import { Skill } from './skill';
 
 export const SKILLS: Skill[] = [
-  { type: "Langages de programmation", list: ["Python",
+  { type: "Langages de programmation", list: [
     "JavaScript (ES6+)",
     "Node.js",
     "HTML5",
     "CSS3",
+    "Python",
     "C/C++/C++11"
     ] },
     { type: "IDE et Tools :", list: [
@@ -33,10 +34,9 @@ export const SKILLS: Skill[] = [
       "Oracle SQL Developer",
       "Jira"
     ]},
-    { type: "Framework :", list:["Django3",
+    { type: "Framework :", list:["React",
     "Express",
-    "Angular 9",
-    "MFC",
+    "Angular 9"
     ]},
     {
       type: "Systèmes d'exploitation :", list:["Microsoft Windows 10",
@@ -50,7 +50,7 @@ export const SKILLS: Skill[] = [
       type:"Méthodologies  :", list:["Agile@Scale"
     ]},
     {
-      type: "Bases de données :", list:["SQL : Oracle, Oracle PL/SQL",
+      type: "Bases de données :", list:["SQL : Oracle, Oracle PL/SQL, MySQL, PostgreSQL",
       "NoSQL: MongoDB"
     ]}
   ];

@@ -1,46 +1,34 @@
 import { Experience } from './experience';
 
 export const EXPERIENCES: Experience[] = [
-  { period: "Mai 2020 à octobre 2020 ",
-    societe: "Independent",
-    job: "Independent",
+  { period: "Mai 2020 à novrmbre 2020 ",
+    societe: "Indépendant",
+    job: "Indépendant",
     description:
-    `J'ai travaillé indépendamment et je me suis autoformé sur des sujets variés comme:
-    Le développement Web avec le framework Django en langage Python.
-    Le développement Web Full-Stack JavaScript
-    Le langage C++ Moderne (C++11/14/17)
-    Les Fondements du Cloud Computing (Amazon Web Services AWS)
-    Le big data avec Hadoop
-    La conteneurisation (Docker)
-    J'ai suivi des tutoriels et des cours de e-learning sur les plateformes de Udemy, LinkedIn Learning, OpenClassrooms et AWS Training.
-    Développeur Web fullstack Python, framework Django
-    Développement d'une application Web fullstack Python (en cours).
-    Entraînement en Python sur CodingGame.com
-    Environnement :
-    Python/ Django/ Pandas/ Numpy
-    PyCharm
-    Anaconda
-    Jupyter Notebook
-    Visual Studio Code
-    Développeur Web Full-Stack JavaScript - MEAN stack
-    Développement Full-Stack d'une site Web (en cours)
-    Côté backend
-    Express
-    Node.js
-    MongoDB
-    API Rest, tests avec Postman
-    Déploiement sur Heroku
-    Côté frontend
-    Angular 9
-    Bootstrap 4
-    HTML5, CSS3
+    `
+    * Développeur Web full stack JavaScript-MERN stack
+    * Développement full-stack d'une site Web: AlbumPhoto. L'application permet la visualisation d'une collection des photos, et la mise à jour de la collection (ajout, suppression, modification). Elle est basée sur React et des API Rest avec Node.js (opérations CRUD). Les routes sont sécurisées avec Auth0/JWT (en cours).
+    Technologies utilisées :
+    Côté backend : Node.js, Express, Mongoose, MongoDB
+    Import des images avec Multer
+    Authentification avec Auth0 JWT
+    Tests avec Postman
+    Côté frontend : React, Bootstrap4, HTML5, CSS3
+    Autoformation en ligne sur JavaScript, React, Node.js.
+    Lien GitHub: https://github.com/mike507/card-javascript-fullstack-app
 
-    AWS cloud computing enthusiast
-    J’ai suivi en anglais, en ligne sur AWS Training et LinkedIn, des modules sur:
-    AWS Cloud Practitioner Essentials: AWSSecurity, AWS Core Services, AWS Architecture
-    AWS EC2, Amazon ECS, DynamoDB, Amazon SNS, Amazon SQS, AWS Fargate
-    J’ai participé au webinar AWS Cloud Practitioner Essentials Day
-    Je me suis créé un compte AWS Console et j'ai me suis entrainé à l'utilisation des services AWS.
+    * Développement de mon site Web Portfolio, avec Angular et déployé avec GitHub Pages,
+    Live sur: https://mike507.github.io/Mihaela-Personal-Portofolio-Angular
+    Lien GitHub: https://github.com/mike507/card-javascript-fullstack-app
+
+    * Développeur Python
+    Entraînement en Python sur CodingGame.com
+    Autoformation en ligne
+    Environnement :
+    Python, PyCharm, Anaconda, Jupyter Notebooks, Visual Studio Code
+
+    * AWS cloud computing enthousiaste
+    J’ai suivi en anglais, en ligne, sur Udemy et AWS Training and Certifications, des modules sur AWS Cloud Practitioner Essentials: AWSSecurity, AWS Core Services, AWS Architecture.
     ` },
 
     { period: "Mars 2020 à avril 2020",
